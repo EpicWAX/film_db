@@ -1,2 +1,1 @@
-id,film_name,annee,real,genre,acteur,synopsis
-1,pulp fiction,1994,quentin tarantino,lol,lol,"LOREM IPSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSS"
+id;film_name;annee;real;genre;acteur;synopsis

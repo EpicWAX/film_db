@@ -1,2 +1,10 @@
-id,genre
-,fun
+id;genre
+;Péplum
+;Aventure
+;Drame
+;Action
+;Guerre
+;Historique
+;Comédie
+;Policier
+;Thriller
