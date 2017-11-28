@@ -1,2 +1,4 @@
-id,first_name,last_name,country
-,francis,jonson,MARS
+id;first_name;last_name;country
+;Liam;Neeson,;Royaume uni
+;Ben;Kingsley,;Royaume uni
+;Ralph;Fiennes;Royaume uni
