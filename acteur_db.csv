@@ -1,19 +1,19 @@
-id;first_name;last_name;country
-;Russell ;Crowe;Américain
-;Joaquin;Phoenix;Américain
-;Connie;Nielsen;Américaine
-;Oliver;Reed;Britannique
-;Richard;Harris;Irlandais
-;Derek;Jacobi;Britannique
-;David;Hemmings;Britannique
-;Djimon;Hounsou;Béninois
-;Gerard;Butler;Britannique
-;Lena;Headey;Britannique
-;Rodrigo;Santoro;brésilien
-;George;Clooney;Américain
-;Brad;Pitt;Américain
-;Matt;Damon;Américain
-;Andy ;Garcia;Britannique
-;Don;Cheadle;Américain
-;Bernie;Mac;Américain
-;Julia;Roberts;Américaine
+id,first_name,last_name,country
+,Russell ,Crowe,AmÃ©ricain
+,Joaquin,Phoenix,AmÃ©ricain
+,Connie,Nielsen,AmÃ©ricaine
+,Oliver,Reed,Britannique
+,Richard,Harris,Irlandais
+,Derek,Jacobi,Britannique
+,David,Hemmings,Britannique
+,Djimon,Hounsou,BÃ©ninois
+,Gerard,Butler,Britannique
+,Lena,Headey,Britannique
+,Rodrigo,Santoro,brÃ©silien
+,George,Clooney,AmÃ©ricain
+,Brad,Pitt,AmÃ©ricain
+,Matt,Damon,AmÃ©ricain
+,Andy ,Garcia,Britannique
+,Don,Cheadle,AmÃ©ricain
+,Bernie,Mac,AmÃ©ricain
+,Julia,Roberts,AmÃ©ricaine
