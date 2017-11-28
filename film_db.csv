@@ -1,1 +1,4 @@
-id;film_name;annee;real;genre;acteur;synopsis
+id;film_name;annee;real
+;Gladiator;2000;Ridley Scott
+;300;2006;Zack Snyder
+;ocean's twelve;2004;Steven Soderbergh
