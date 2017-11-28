@@ -1,14 +1,10 @@
-id,first_name,last_name,country
-,"John","Travolta","USA"
-,"Samuel","L. Jackson","USA"
-,"Bruce","Willis","USA"
-,"Uma","Thurman","USA"
-,"Lucy","Liu","USA"
-,"Daryl","Hannah","USA"
-,"David","Carradine","USA"
-,"francis","jonson","MARS"
-,"Kurt","Russell","USA"
-,"Zoë","Bell","NZ"
-,"Rosario","Dawson","USA"
-,"Vanessa","Ferlito","USA"
-,"Sydney Tamiia","Poitier","USA"
+ID,First_Name,Last_Name,Country
+,Kate,Beckinsale,UK
+,Scott,Speedman,Canada
+,Bill,Nighy,UK
+,Graham,McTavish,UK
+,Vanessa,Branch,USA
+,Steven,Blum,USA
+,Gillian,Anderson, USA
+,Claire,Danes,USA
+,Billy,Crudup,USA
