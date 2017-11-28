@@ -1,4 +1,4 @@
-ID,First_Name,Last_Name,Country
+id,first_name,nast_name,country
 ,Kate,Beckinsale,UK
 ,Scott,Speedman,Canada
 ,Bill,Nighy,UK
@@ -8,3 +8,16 @@ ID,First_Name,Last_Name,Country
 ,Gillian,Anderson, USA
 ,Claire,Danes,USA
 ,Billy,Crudup,USA
+,"John","Travolta","USA"
+,"Samuel","L. Jackson","USA"
+,"Bruce","Willis","USA"
+,"Uma","Thurman","USA"
+,"Lucy","Liu","USA"
+,"Daryl","Hannah","USA"
+,"David","Carradine","USA"
+,"francis","jonson","MARS"
+,"Kurt","Russell","USA"
+,"Zoë","Bell","NZ"
+,"Rosario","Dawson","USA"
+,"Vanessa","Ferlito","USA"
+,"Sydney Tamiia","Poitier","USA"
