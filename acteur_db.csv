@@ -1,53 +1,52 @@
-id,first_name,last_name,country
-,Liam,Neeson,Royaume uni
-,Ben,Kingsley,Royaume uni
-,Ralph,Fiennes,Royaume uni
-,Robin,Williams,USA
-,Ethan,Hawke,USA
-,Robert Sean,Leonard,USA
-,Chris,Sarandon,USA
-,Danny,Elfman,USA
-,Catherine,O'hara,USA
-,Victor,Lanoux,France
-,Thierry,FrÃ©mont,France
-,Nadia,FarÃ¨s,France
-,Russell ,Crowe,AmÃ©ricain
-,Joaquin,Phoenix,AmÃ©ricain
-,Connie,Nielsen,AmÃ©ricaine
-,Oliver,Reed,Britannique
-,Richard,Harris,Irlandais
-,Derek,Jacobi,Britannique
-,David,Hemmings,Britannique
-,Djimon,Hounsou,BÃ©ninois
-,Gerard,Butler,Britannique
-,Lena,Headey,Britannique
-,Rodrigo,Santoro,brÃ©silien
-,George,Clooney,AmÃ©ricain
-,Brad,Pitt,AmÃ©ricain
-,Matt,Damon,AmÃ©ricain
-,Andy ,Garcia,Britannique
-,Don,Cheadle,AmÃ©ricain
-,Bernie,Mac,AmÃ©ricain
-,Julia,Roberts,AmÃ©ricaine
-,Kate,Beckinsale,UK
-,Scott,Speedman,Canada
-,Bill,Nighy,UK
-,Graham,McTavish,UK
-,Vanessa,Branch,USA
-,Steven,Blum,USA
-,Gillian,Anderson, USA
-,Claire,Danes,USA
-,Billy,Crudup,USA
-,"John","Travolta","USA"
-,"Samuel","L. Jackson","USA"
-,"Bruce","Willis","USA"
-,"Uma","Thurman","USA"
-,"Lucy","Liu","USA"
-,"Daryl","Hannah","USA"
-,"David","Carradine","USA"
-,"francis","jonson","MARS"
-,"Kurt","Russell","USA"
-,"ZoÃ«","Bell","NZ"
-,"Rosario","Dawson","USA"
-,"Vanessa","Ferlito","USA"
-,"Sydney Tamiia","Poitier","USA"
+1,Liam,Neeson,Royaume uni
+2,Ben,Kingsley,Royaume uni
+3,Ralph,Fiennes,Royaume uni
+4,Robin,Williams,USA
+5,Ethan,Hawke,USA
+6,Robert Sean,Leonard,USA
+7,Chris,Sarandon,USA
+8,Danny,Elfman,USA
+9,Catherine,O'hara,USA
+10,Victor,Lanoux,France
+11,Thierry,Frémont,France
+12,Nadia,Farès,France
+13,Russell ,Crowe,Américain
+14,Joaquin,Phoenix,Américain
+15,Connie,Nielsen,Américaine
+16,Oliver,Reed,Britannique
+17,Richard,Harris,Irlandais
+18,Derek,Jacobi,Britannique
+19,David,Hemmings,Britannique
+20,Djimon,Hounsou,Béninois
+21,Gerard,Butler,Britannique
+22,Lena,Headey,Britannique
+23,Rodrigo,Santoro,brésilien
+24,George,Clooney,Américain
+25,Brad,Pitt,Américain
+26,Matt,Damon,Américain
+27,Andy ,Garcia,Britannique
+28,Don,Cheadle,Américain
+29,Bernie,Mac,Américain
+30,Julia,Roberts,Américaine
+31,Kate,Beckinsale,UK
+32,Scott,Speedman,Canada
+33,Bill,Nighy,UK
+34,Graham,McTavish,UK
+35,Vanessa,Branch,USA
+36,Steven,Blum,USA
+37,Gillian,Anderson, USA
+38,Claire,Danes,USA
+39,Billy,Crudup,USA
+"40,""John"",""Travolta"",""USA"""
+"41,""Samuel"",""L. Jackson"",""USA"""
+"42,""Bruce"",""Willis"",""USA"""
+"43,""Uma"",""Thurman"",""USA"""
+"44,""Lucy"",""Liu"",""USA"""
+"45,""Daryl"",""Hannah"",""USA"""
+"46,""David"",""Carradine"",""USA"""
+"47,""francis"",""jonson"",""MARS"""
+"48,""Kurt"",""Russell"",""USA"""
+"49,""Zoë"",""Bell"",""NZ"""
+"50,""Rosario"",""Dawson"",""USA"""
+"51,""Vanessa"",""Ferlito"",""USA"""
+"52,""Sydney Tamiia"",""Poitier"",""USA"""
