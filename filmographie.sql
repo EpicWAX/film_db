@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Hôte : 127.0.0.1
--- Généré le :  mer. 29 nov. 2017 à 15:04
+-- Généré le :  mer. 29 nov. 2017 à 19:58
 -- Version du serveur :  10.1.28-MariaDB
 -- Version de PHP :  7.1.10
 
@@ -141,6 +141,34 @@ CREATE TABLE `film_acteurs` (
   `id_acteurs` int(11) NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8 COLLATE=utf8_bin;
 
+--
+-- Déchargement des données de la table `film_acteurs`
+--
+
+INSERT INTO `film_acteurs` (`id`, `id_acteurs`) VALUES
+(8, 27),
+(1, 1),
+(1, 2),
+(1, 3),
+(7, 13),
+(7, 14),
+(7, 15),
+(7, 16),
+(7, 17),
+(7, 18),
+(7, 19),
+(7, 20),
+(8, 21),
+(8, 22),
+(8, 23),
+(9, 24),
+(9, 22),
+(8, 21),
+(8, 22),
+(8, 23),
+(9, 24),
+(9, 22);
+
 -- --------------------------------------------------------
 
 --
@@ -157,7 +185,39 @@ CREATE TABLE `film_genre` (
 --
 
 INSERT INTO `film_genre` (`id`, `id_genre`) VALUES
-(3, 2);
+(1, 1),
+(1, 3),
+(1, 12),
+(1, 14),
+(2, 4),
+(3, 2),
+(3, 5),
+(3, 6),
+(4, 9),
+(5, 8),
+(6, 5),
+(7, 10),
+(7, 11),
+(7, 12),
+(7, 13),
+(8, 10),
+(9, 6),
+(9, 8),
+(9, 18),
+(10, 5),
+(10, 9),
+(10, 13),
+(10, 24),
+(11, 19),
+(12, 20),
+(13, 17),
+(13, 18),
+(14, 12),
+(14, 13),
+(14, 18),
+(15, 8),
+(15, 12),
+(15, 18);
 
 -- --------------------------------------------------------
 
@@ -218,6 +278,13 @@ ALTER TABLE `film`
   ADD PRIMARY KEY (`id`);
 
 --
+-- Index pour la table `film_acteurs`
+--
+ALTER TABLE `film_acteurs`
+  ADD KEY `id` (`id`),
+  ADD KEY `id_acteurs` (`id_acteurs`);
+
+--
 -- Index pour la table `film_genre`
 --
 ALTER TABLE `film_genre`
@@ -261,6 +328,13 @@ ALTER TABLE `genre`
 --
 ALTER TABLE `acteurs`
   ADD CONSTRAINT `FK_Acteurs_id_Film` FOREIGN KEY (`id_Film`) REFERENCES `film` (`id`);
+
+--
+-- Contraintes pour la table `film_acteurs`
+--
+ALTER TABLE `film_acteurs`
+  ADD CONSTRAINT `id_acteur` FOREIGN KEY (`id_acteurs`) REFERENCES `acteurs` (`id`),
+  ADD CONSTRAINT `id_film` FOREIGN KEY (`id`) REFERENCES `film` (`id`);
 
 --
 -- Contraintes pour la table `film_genre`
