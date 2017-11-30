@@ -15,8 +15,11 @@
   <body style="padding-top: 3%">
 	<body>
 		<p>NEW DESIGN FOR READ INFO FILM<p>
-<?=$
-
+    <?php foreach($films as $key => $film) 
+    {
+      echo $film['film_name'];
+    }
+    ?>
 
 	</body>
 </html>
