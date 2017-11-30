@@ -1,8 +1,6 @@
 <?PHP
-if(isset($_GET['route']))
-{
   $route = $_GET['route'];
-  if(empty($route))
+  if(empty($route) || isset($_GET['route']))
   {
     $route = 'home';
   }
@@ -12,13 +10,12 @@ if(isset($_GET['route']))
     include("views/homeView.php");
     break;
 
+    case 'film' :
+    include('views/filmsView.php');
+    break;
+
     default:
-    include("controllers/".$route.'filmsController.php');
+    echo "404";
   }
-}
-else 
-{
-  include('controllers/homeController.php');
-}
 ?>
 
