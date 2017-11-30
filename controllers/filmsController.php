@@ -9,7 +9,7 @@ try {
     die();
     }
 
-$fi = $db->query("SELECT * FROM film, film_acteurs, film_genre, acteurs, genre  WHERE id = $idfilm ");
+$fi = $db->query("SELECT * FROM film  WHERE id = $idfilm ");
 $films = $fi->fetchAll();
 include("views/filmsView.php"); //Attention, les fichiers sont include donc pour le serveur on est toujours au niveau d'index.php, et pas dans le dossier "controllers", donc on apelle "views/filmsView.php" et non pas "../views/filmsView.php"
 ?>

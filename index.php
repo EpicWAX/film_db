@@ -5,7 +5,6 @@ if(isset($_GET['route']))
   if(preg_match('|film/[0-9]|', $route))
   {
     $route = explode( '/', $route);
-    print_r($route);
     $idfilm = $route[1];
     include('controllers/filmsController.php');
     die();
