@@ -57,7 +57,7 @@
 		  <h2>Film n°<?=$key+1?></h2>
 		  <h3><?=$film['film_name']?></h3>
           <p><?=$film['synopsi']?></p>
-          <a class="btn btn-primary" href="route=<?=$key+1?>">Voir affiche</a>
+          <a class="btn btn-primary" href="film/<?=$key+1?>">Voir affiche</a>
         </div>
       </div>
       <!-- /.row -->
