@@ -13,6 +13,7 @@
   </head>
   <body style="padding-top: 3%">
 	<body>
+<<<<<<< HEAD
   <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
       <div class="container">
         <a class="navbar-brand" href="#">ALLO Lions</a>
@@ -49,6 +50,14 @@
      
     <!-- Portfolio Item Row -->
     <div class="row">
+=======
+		<p>NEW DESIGN FOR READ INFO FILM<p>
+    <?php foreach($films as $key => $film) 
+    {
+      echo $film['film_name'];
+    }
+    ?>
+>>>>>>> ac71c9e61b14c3be413304604cf953ab73f2804a
 
       <div class="col-md-8">
         <img class="img-fluid" src="<?=$film['picture']?>" alt="">
