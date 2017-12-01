@@ -16,7 +16,7 @@
     <!-- Navigation -->
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
       <div class="container">
-        <a class="navbar-brand" href="#"><img src="images/lion.jpg" style="width:50px;" class="lion"> Allo Lions</a>
+        <a class="navbar-brand" href="#"><img src="images/lion.jpg" style="width:50px;" class="lion">Allo Lions</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
@@ -38,43 +38,9 @@
     <div class="container">
       <!-- Page Heading -->
       <h1 class="my-5 pl-5">#
-        <small>Sélection du mois </small>
+        <small>ERREUR</small>
 	  </h1>
-	<?php foreach ($films as $key => $film): ?>			
-      <div class="row">
-        <div class="col-md-7">
-            <img class="img-fluid rounded mb-3 mb-md-0" src="<?=$film['picture']?>" style="width:400px;height:600px;" alt="image">
-        </div>
-        <div class="film<?=$film['id']?> col-md-5 my-auto">
-		  <h3><?=$film['film_name']?></h3>
-          <p><?=$film['synopsi']?></p>
-          <a class="btn btn-primary" href="film/<?=$film['id']?>">+ d'infos</a>
-        </div>
-      </div>
-      <!-- /.row -->
-      <hr>
-	<?php endforeach ?>
-      <!-- Pagination -->
-      <ul class="pagination justify-content-center">
-        <li class="page-item">
-          <a class="page-link" href="1" aria-label="Previous">
-            <span aria-hidden="true">&laquo;</span>
-            <span class="sr-only">Previous</span>
-          </a>
-        </li>
-        <li class="page-item">
-          <a class="page-link" href="1">1</a>
-        </li>
-        <li class="page-item">
-          <a class="page-link" href="2">2</a>
-        </li>
-        <li class="page-item">
-          <a class="page-link" href="2" aria-label="Next">
-            <span aria-hidden="true">&raquo;</span>
-            <span class="sr-only">Next</span>
-          </a>
-        </li>
-      </ul>
+      <img alt="errreur" src="images/404.jpg" class="m-auto" style="width:80%;">
     </div>
     <!-- /.container -->
     <!-- Footer -->
